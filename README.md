@@ -10,8 +10,8 @@ Below you will find some information on how to perform common tasks.<br>
     -   [npm start](#npm-start)
     -   [npm test](#npm-test)
     -   [npm run build](#npm-run-build)
--   [Burger Builder](###Burger-Builder)
-    -   [Web app](##Burger-Builder)
+-   [Burger Builder](#Burger-Builder)
+    -   [Web app](#Burger-Builder)
 
 ## Available Scripts
 
