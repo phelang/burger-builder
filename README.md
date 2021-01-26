@@ -1,4 +1,6 @@
-This project is an oline course on Udemy.com [Create React App](https://www.udemy.com/course/react-the-complete-guide-incl-redux/).
+## Burger Builder
+
+This project is based on an online course on Udemy.com [React the Complete Guide](https://www.udemy.com/course/react-the-complete-guide-incl-redux/).
 
 Below you will find some information on how to perform common tasks.<br>
 
@@ -8,8 +10,8 @@ Below you will find some information on how to perform common tasks.<br>
     -   [npm start](#npm-start)
     -   [npm test](#npm-test)
     -   [npm run build](#npm-run-build)
--   [Demo](#demo)
-    -   [Web app]
+-   [Demo](### Burger Builder)
+    -   [Web app](##Burger-Builder)
 
 ## Available Scripts
 
@@ -36,7 +38,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
-## Available Scripts
+## Burger Builder
 
-Burger builder demo. Build burger, login, sing up, checkout and orders<br>
+Burger builder online. You can Login, Sing-Up, Checkout and View Orders<br>
 Open [https://burger-builder-8c5e4.firebaseapp.com/](https://burger-builder-8c5e4.firebaseapp.com/) to view it in the browser.
