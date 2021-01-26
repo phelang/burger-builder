@@ -8,6 +8,8 @@ Below you will find some information on how to perform common tasks.<br>
     -   [npm start](#npm-start)
     -   [npm test](#npm-test)
     -   [npm run build](#npm-run-build)
+-   [Demo](#demo)
+    -   [Web app]
 
 ## Available Scripts
 
@@ -34,4 +36,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
-See the section about [deployment](#deployment) for more information.
+## Available Scripts
+
+Burger builder demo. Build burger, login, sing up, checkout and orders<br>
+Open [https://burger-builder-8c5e4.firebaseapp.com/](https://burger-builder-8c5e4.firebaseapp.com/) to view it in the browser.

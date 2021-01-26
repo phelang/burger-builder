@@ -1,0 +1,13 @@
+{
+    "hosting": {
+        "site": "burger-builder-8c5e4",
+        "public": "build",
+        "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+        "rewrites": [
+            {
+                "source": "**",
+                "destination": "/index.html"
+            }
+        ]
+    }
+}
