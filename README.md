@@ -1,4 +1,4 @@
-## Burger Builder
+## Burger Builder E-Commerce
 
 This project is based on an online course on Udemy.com [React the Complete Guide](https://www.udemy.com/course/react-the-complete-guide-incl-redux/).
 
@@ -10,7 +10,7 @@ Below you will find some information on how to perform common tasks.<br>
     -   [npm start](#npm-start)
     -   [npm test](#npm-test)
     -   [npm run build](#npm-run-build)
--   [Demo](### Burger Builder)
+-   [Burger Builder](###Burger-Builder)
     -   [Web app](##Burger-Builder)
 
 ## Available Scripts
