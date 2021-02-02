@@ -40,7 +40,7 @@ const auth = (props) => {
             touched: false,
         },
     })
-    const [isSignup, setIsSignup] = useState(true)
+    // const [isSignup, setIsSignup] = useState(true)
 
     const { buildingBurger, authRedirectPath, onSetAuthRedirectPath } = props
     useEffect(() => {
@@ -63,14 +63,31 @@ const auth = (props) => {
         setControls(updatedControls)
     }
 
-    const submitHandler = (event) => {
+    const submitHandler = (event, authAction) => {
         event.preventDefault()
-        props.onAuth(controls.email.value, controls.password.value, isSignup)
+        switch (authAction) {
+            case 'LOGIN':
+                props.onAuth(
+                    controls.email.value,
+                    controls.password.value,
+                    false
+                )
+                break
+            case 'SIGNUP':
+                props.onAuth(
+                    controls.email.value,
+                    controls.password.value,
+                    true
+                )
+                break
+            default:
+                throw new Error('Select LOGIN OR SIGNUP')
+        }
     }
 
-    const switchAuthModeHandler = () => {
-        setIsSignup(!isSignup)
-    }
+    // const switchAuthModeHandler = () => {
+    //     setIsSignup(!isSignup)
+    // }
 
     const formElementsArray = []
     for (let key in controls) {
@@ -118,11 +135,19 @@ const auth = (props) => {
             {errorMessage}
             <form onSubmit={(event) => submitHandler(event)}>
                 {form}
-                <Button btnType='Success'>SUBMIT</Button>
+                <Button
+                    btnType='Success'
+                    clicked={(event) => submitHandler(event, 'LOGIN')}
+                >
+                    Login
+                </Button>
+                <Button
+                    btnType='Danger'
+                    clicked={(event) => submitHandler(event, 'SIGNUP')}
+                >
+                    Sign Up
+                </Button>
             </form>
-            <Button btnType='Danger' clicked={switchAuthModeHandler}>
-                SWITCH TO {isSignup ? 'SIGNUP' : 'SIGNIN'}
-            </Button>
         </div>
     )
 }
