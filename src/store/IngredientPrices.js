@@ -1,6 +1,6 @@
 export const INGREDIENT_PRICES = {
-    salad: 0.5,
-    cheese: 0.4,
-    meat: 1.3,
-    bacon: 0.7,
+    salad: 5.0,
+    cheese: 2.5,
+    meat: 11.5,
+    bacon: 2.5,
 }
