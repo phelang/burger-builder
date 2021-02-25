@@ -38,7 +38,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
-## Burger Builder
+## Demo
 
-Burger builder online. You can Login, Sing-Up, Checkout and View Orders<br>
+Login, Sing-Up, Checkout and View Orders<br>
 Open [https://burger-builder-8c5e4.firebaseapp.com/](https://burger-builder-8c5e4.firebaseapp.com/) to view it in the browser.

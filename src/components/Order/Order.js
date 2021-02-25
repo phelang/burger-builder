@@ -43,7 +43,7 @@ const order = (props) => {
             {contactData}
             <p>Ingredients: {ingredientOutput}</p>
             <p>
-                Price: <strong>USD {props.price}</strong>
+                Price: <strong>R {props.price.toFixed(2)}</strong>
             </p>
             <Button btnType='Delete' clicked={props.deleteOrder}>
                 Delete
